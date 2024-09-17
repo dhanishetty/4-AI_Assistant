@@ -20,7 +20,7 @@ import openai
 
 from openai import OpenAI
 
-client = OpenAI( api_key= "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")
+client = OpenAI( api_key)
 
 # Function to convert text to speech
 def SpeakText(command):
